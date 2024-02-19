@@ -2,17 +2,46 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<link rel="stylesheet" href="style.css">-->   
     <title>Meu Site</title>
+    <style>
+        nav ul {
+            display: flex;            
+            list-style: none;
+            margin: 0;
+        }
+        nav ul li a {
+            padding: 10px 15px;
+            color: blue;
+            text-decoration: none;
+            border-radius: 25px 0;
+        }
+        nav ul li a:hover {
+            color: bisque;
+            background: green;
+        }
+    </style> 
+
+
 </head>
-<body> 
 
-<button onclick="myFunction()" >Clique aqui</button>
+<body>
+    <header>
+      <nav>
+        <ul>
+            <li><a href="#">Playstation</a></li>
+            <li><a href="#">Xbox</a></li>
+            <li><a href="#">Nintendo</a></li>
+            <li><a href="#">Acessórios</a></li>
+            <li><a href="#">Informática</a></li>
+        </ul>
+      </nav>
+    </header>     
 
-<div id="contextText"><p>Teste de site novo</p></div>   
-    
+    <main></main>
+
+    <footer></footer>
 </body>
-
-<script src="js/teste.js"></script>    
 
 </html>
